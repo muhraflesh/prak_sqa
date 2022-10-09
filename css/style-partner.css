@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+ul{list-style-type:none;margin:0;padding:0}a:hover{text-decoration:none}button{cursor:pointer}button:focus{outline:0;box-shadow:none}h1,h2,h3,h4,h5,h6{font-family:"Oswald",sans-serif;color:#242424;line-height:1.5}h1,.h1{font-size:60px;font-weight:700}h2,.h2{font-size:24px;font-weight:600}h3,.h3{font-size:20px;font-weight:500}h4,.h4{font-size:18px}[class^="flaticon-"]:before,[class*=" flaticon-"]:before,[class^="flaticon-"]:after,[class*=" flaticon-"]:after{margin:0}.primary-text{color:#3b1d82}.primary-text2{color:#ea0763}.primary-bg{background-color:#3b1d82}
+
+.partner-bg{
+	background:url(../images/partner-bg.png) left center no-repeat;
+	background-size:cover
+}
+
+.partner-wrapper{
+	text-align:center;
+	max-width:950px;
+	margin-right:auto;
+	margin-left:auto
+}
+
+.partner-wrapper--small{
+	max-width:750px
+}
+
+.partner-single{
+	border:5px solid #fff;
+	text-align:center;
+	padding:10px;
+	-webkit-transition:all 0.3s ease 0s;
+	-moz-transition:all 0.3s ease 0s;
+	-o-transition:all 0.3s ease 0s;
+	transition:all 0.3s ease 0s;
+	height:140px;
+	position:relative;
+	margin-bottom: 2%
+}
+.partner-single img{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%)
+}
+.partner-single:hover{
+	box-shadow:0px 5px 20px 0px rgba(10,9,13,0.15)
+}
+.partner-wrapper--small .partner-single{
+	height:120px
+}
